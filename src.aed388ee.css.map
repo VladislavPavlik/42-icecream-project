@@ -1,1 +1,0 @@
-{"version":3,"sources":["sass/components/_hero.scss"],"names":[],"mappings":"AAAA,WACE,WAAA,CACA,YAAA,CACA,iBAAA,CACA","file":"src.aed388ee.css","sourceRoot":"../src","sourcesContent":[".container {\n  width: 100px;\n  height: 100px;\n  padding-left: 15px;\n  background-color: #212121;\n}\n"]}
