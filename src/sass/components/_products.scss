@@ -54,7 +54,7 @@ padding-bottom: 15px;
     text-transform: uppercase;
     text-align: center;
     color:var(--products-text-color);
-    
+    padding-bottom: 30px;
 }
 .list{
     text-align: center;
@@ -86,7 +86,13 @@ padding-bottom: 15px;
     
 }
 .box__icons{
-    bottom: 200px;
-    width: 280px;
-    height: 485px;
+top: 200px;
+}
+
+.box__products{
+  
+}
+.list__btn{
+    padding-bottom: 41px;
+
 }
