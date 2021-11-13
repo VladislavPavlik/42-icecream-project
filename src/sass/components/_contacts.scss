@@ -49,3 +49,27 @@
     background: #c2e297;
   }
 }
+
+.thumb-locally {
+  padding: 25px 0;
+  border-bottom: 1px solid #e1e1e1;
+
+  &__title {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 0.04em;
+    color: var(--contacts--title-color);
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--contacts--text-color);
+  }
+}
