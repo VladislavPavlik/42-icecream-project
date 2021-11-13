@@ -1,0 +1,55 @@
+.header{
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 777;
+}
+
+.header__container{
+    padding: 6px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+
+}
+
+.menu-btn{
+    min-width: 20px;
+    min-height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    margin-left: auto;
+    padding: 0;
+    cursor: pointer;
+    // transition-duration: 250ms;
+    // animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 20px 0 21px;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    z-index: 888;
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-close {
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    color: var(--products-text-color);
+}
