@@ -1,0 +1,92 @@
+.section{
+padding-top: 121px;
+padding-bottom: 98px;
+}
+
+.section__label{
+font-family: Titan One;
+display: block;
+font-weight: 400;
+font-size: 18px;
+line-height: calc(21 / 18);
+letter-spacing: 0.01em;
+text-transform: uppercase;
+text-align: center;
+color:var(--pretitle-section-color);
+padding-bottom: 15px;
+}
+.section__title{
+    font-family: Titan One;
+    display: block;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: calc(39 / 34);
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--button-text-color);
+    padding-bottom: 31px;  
+}
+.cards__title{
+    font-family: Titan One;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--products-title-color);
+    padding-top: 22px;
+    padding-bottom: 30px;  
+
+}
+.cards__item{
+
+}
+.list__text{
+    font-family: DM Sans;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(21 / 14);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--products-text-color);
+    
+}
+.list{
+    text-align: center;
+    height: 124px; 
+    padding-left: 39px;
+    padding-right: 41px;
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.buttons__item{
+    padding-right: 4px;
+    color: var(--products-title-color);
+}
+.buttons__btn{
+    background-color: var(--products-title-color);
+}
+.box {
+    background-color: #FFB8CA;
+    border-radius: 24px;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 25px;
+    margin-bottom: 346px;
+    
+}
+.box__icons{
+    bottom: 200px;
+    width: 280px;
+    height: 485px;
+}
