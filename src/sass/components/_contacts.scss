@@ -175,6 +175,8 @@
 
     @media screen and (min-width: 768px) {
       height: 28px;
+      font-size: 16px;
+      line-height: 1.87;
     }
   }
 
@@ -199,6 +201,7 @@
     color: var(--contacts--title-color);
     margin-bottom: 10px;
   }
+
   &__text {
     font-family: DM Sans;
     font-style: normal;
