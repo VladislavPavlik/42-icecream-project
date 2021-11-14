@@ -1,18 +1,31 @@
+.list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
 .slider {
-  padding: 20px 155px;
+  padding: 30px 50px;
+  @media (min-width: 768px) {
+    padding: 20px 155px;
+  }
 }
 
+.slider__item {
+  margin-bottom: 30px;
+}
 .slider_image {
   width: 85px;
   height: 85px;
   background-color: green;
   border-radius: 50%;
-  margin: 15px auto;
+  margin: auto;
 }
 
 .slider-review {
-  background-color: #fafafa;
-  padding: 30px 50px;
+  /*background-color: #fafafa;*/
+  margin-top: 47px;
+  padding: 25px 45px;
+  background-image: repeating-linear-gradient(to bottom, #fafafa, #fafafa 40px, #e1e1e1 1px);
 }
 
 .slider-review__text {
@@ -41,13 +54,72 @@
   content: '';
   width: 54px;
   height: 40px;
-  fill: #e1e1e1;
-  background: url('../images/customer-reviews/sprite-review.svg#icon-review-quotes');
+  background-image: url('../images/customer-reviews/quotes.png');
 
-  float: left;
-  margin: 0 10px 2px 0;
+  margin: 0px 10px -27px 0;
 }
 
-.slider-review__text::after {
+.slider__title::before {
+  display: block;
   content: '';
+  width: 32px;
+  height: 4px;
+  background-image: url('../images/customer-reviews/after.png');
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.slider__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(26 / 14);
+  text-align: center;
+}
+
+/* -------Слайдер ------*/
+.slick-slider {
+  min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+/*  Свойства слайдера*/
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+.slider .slick-dots button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.slider__item {
+  padding: 0px 15px;
+}
+.slider .slick-dots li.slick-active button {
+  background: url('../images/customer-reviews/slider_home.png') 0 0 / 100% no-repeat;
 }
