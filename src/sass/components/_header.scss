@@ -1,12 +1,12 @@
 .header{
     width: 100%;
+    padding-top: 6px;
     background-color: transparent;
     position: fixed;
     z-index: 777;
 }
 
 .header__container{
-    padding: 6px 20px 0px 20px;
     display: flex;
     align-items: center;
 }
