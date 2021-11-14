@@ -37,13 +37,13 @@ padding-bottom: 98px;
     padding-top: 113px;
 }
 
-.products__cards-item{
+.products__cards-item {
     padding-top: 161px;
     width: 280px;
-    height: 485px;
     background: #ffb8ca;
     border-radius: 24px;
     margin-bottom: 171px;
+    padding-bottom: 30px;
 }
 .second{
     background: #F0D1A5; 
@@ -61,7 +61,7 @@ padding-bottom: 98px;
     border: none;
     background-color:transparent;
     border-radius: 50%;
-    padding-bottom: 58px;
+    
   }
   .products__button::before {
     content: url(../images/products/arrow.png);
