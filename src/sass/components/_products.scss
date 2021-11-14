@@ -1,98 +1,158 @@
-.section{
+.products{
 padding-top: 121px;
 padding-bottom: 98px;
 }
 
-.section__label{
-font-family: Titan One;
-display: block;
-font-weight: 400;
-font-size: 18px;
-line-height: calc(21 / 18);
-letter-spacing: 0.01em;
-text-transform: uppercase;
-text-align: center;
-color:var(--pretitle-section-color);
-padding-bottom: 15px;
-}
-.section__title{
+.products__label{
     font-family: Titan One;
-    display: block;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    margin-bottom: 15px;
+  
+  
+}
+.products__title{
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
     font-size: 34px;
-    line-height: calc(39 / 34);
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
+    line-height: 39px;
     text-align: center;
-    color:var(--button-text-color);
-    padding-bottom: 31px;  
-}
-.cards__title{
-    font-family: Titan One;
-    display: block;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: calc(23 / 20);
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    text-align: center;
-    color:var(--products-title-color);
-    padding-top: 22px;
-    padding-bottom: 30px;  
-
-}
-.cards__item{
-
-}
-.list__text{
-    font-family: DM Sans;
-    display: block;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(21 / 14);
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    text-align: center;
-    color:var(--products-text-color);
-    padding-bottom: 30px;
+    color: #d41443;
+    margin-bottom: 144px;
+  
 }
-.list{
-    text-align: center;
-    height: 124px; 
-    padding-left: 39px;
-    padding-right: 41px;
-    margin: 0;
+.products__cards{
+    align-content: center;
 }
-.buttons{
+
+.products__cards-item{
+    padding-top: 161px;
+    width: 100%;
+    height: 485px;
+    background: #ffb8ca;
+    border-radius: 24px;
+    margin-bottom: 130px;
+}
+.second{
+    background: #F0D1A5; 
+}
+.third{
+    background: #C2E297; 
+}
+
+.products__button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .products__button::before {
+    content: url(../images/products/arrow.png);
+  }
+  
+  
+.products__text{
+    display: block;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 152%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-bottom: 30px;
+
+}
+
+.products__cards-title::before {
+    content: url(../images/products/home-ice1.png);
+    width: 249px;
+    height: 252px;
+    position: absolute;
+    left: 16%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
-}
-.buttons__item{
-    padding-right: 4px;
-    color: var(--products-title-color);
-}
-.buttons__btn{
-    background-color: var(--products-title-color);
-}
-.box {
-    background-color: #FFB8CA;
-    border-radius: 24px;
-    text-align: center;
-    align-content: center;
-    padding-bottom: 25px;
-    margin-bottom: 346px;
-    
-}
-.box__icons{
-top: 200px;
-}
-
-.box__products{
+    transform: translateY(-115%);
+  }
+  .products__cards2-title::before {
+    content: url(../images/products/home-ice2.png);
+    width: 249px;
+    height: 252px;
+    position: absolute;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-115%);
+  }
+  .products__cards3-title::before {
+    content: url(../images/products/home-ice3.png);
+    width: 249px;
+    height: 252px;
+    position: absolute;
+    left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-115%);
+  }
   
-}
-.list__btn{
-    padding-bottom: 41px;
+  .products__cards-title::after {
+    content: url(../images/products/Ellipse.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 252px;
+    position: absolute;
+    display: block;
+    left: 10%;
+  }
+  .products__cards2-title::after {
+    content: url(../images/products/Ellipse.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 252px;
+    position: absolute;
+    display: block;
+    left: 10%;
+  }
+  .products__cards3-title::after {
+    content: url(../images/products/Ellipse.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 252px;
+    position: absolute;
+    display: block;
+    left: 10%;
+  }
 
-}
+  .products__cards-title, .products__cards2-title, .products__cards3-title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  color: #ffffff;
+  margin-bottom: 66px;
+  }
+  
