@@ -26,20 +26,24 @@ padding-bottom: 98px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #d41443;
-    margin-bottom: 144px;
+    margin-bottom: 31px;
   
 }
 .products__cards{
     align-content: center;
+    width: 280px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 113px;
 }
 
-.products__cards-item{
+.products__cards-item {
     padding-top: 161px;
-    width: 100%;
-    height: 485px;
+    width: 280px;
     background: #ffb8ca;
     border-radius: 24px;
-    margin-bottom: 130px;
+    margin-bottom: 171px;
+    padding-bottom: 30px;
 }
 .second{
     background: #F0D1A5; 
@@ -55,13 +59,25 @@ padding-bottom: 98px;
     margin-left: auto;
     margin-right: auto;
     border: none;
-    background-color: #ffffff;
+    background-color:transparent;
     border-radius: 50%;
+    
   }
   .products__button::before {
     content: url(../images/products/arrow.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
+  .test{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+  }
   
 .products__text{
     display: block;
@@ -84,7 +100,7 @@ padding-bottom: 98px;
     width: 249px;
     height: 252px;
     position: absolute;
-    left: 16%;
+    left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +111,7 @@ padding-bottom: 98px;
     width: 249px;
     height: 252px;
     position: absolute;
-    left: 16%;
+    left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +122,7 @@ padding-bottom: 98px;
     width: 249px;
     height: 252px;
     position: absolute;
-    left: 16%;
+    left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +130,7 @@ padding-bottom: 98px;
   }
   
   .products__cards-title::after {
-    content: url(../images/products/Ellipse.png);
+    content: url(../images/products/group.png);
     background-repeat: no-repeat;
     width: 80%;
     height: 252px;
@@ -123,7 +139,7 @@ padding-bottom: 98px;
     left: 10%;
   }
   .products__cards2-title::after {
-    content: url(../images/products/Ellipse.png);
+    content: url(../images/products/group.png);
     background-repeat: no-repeat;
     width: 80%;
     height: 252px;
@@ -132,7 +148,7 @@ padding-bottom: 98px;
     left: 10%;
   }
   .products__cards3-title::after {
-    content: url(../images/products/Ellipse.png);
+    content: url(../images/products/group.png);
     background-repeat: no-repeat;
     width: 80%;
     height: 252px;
@@ -156,3 +172,29 @@ padding-bottom: 98px;
   margin-bottom: 66px;
   }
   
+//   .products__hover-overlay{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(33,150,243,0.9);
+//     padding: 63px 24px;
+//     -webkit-transform: translateY(100%);
+//     transform: translateY(100%);
+//     -webkit-transition-property: -webkit-transform;
+//     transition-property: -webkit-transform;
+//     transition-property: transform;
+//     transition-property: transform, -webkit-transform;
+//     -webkit-transition-duration: 250ms;
+//     transition-duration: 250ms;
+//     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+
+//   .products__hover-overlay-text{
+//     font-size: 18px;
+//     line-height: 1.56;
+//     letter-spacing: 0.03em;
+//     color: #fff;
+//   }
