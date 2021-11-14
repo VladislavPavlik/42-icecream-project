@@ -43,7 +43,7 @@ padding-bottom: 98px;
     height: 485px;
     background: #ffb8ca;
     border-radius: 24px;
-    margin-bottom: 130px;
+    margin-bottom: 171px;
 }
 .second{
     background: #F0D1A5; 
@@ -61,9 +61,13 @@ padding-bottom: 98px;
     border: none;
     background-color:transparent;
     border-radius: 50%;
+    padding-bottom: 58px;
   }
   .products__button::before {
     content: url(../images/products/arrow.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .test{
@@ -107,7 +111,7 @@ padding-bottom: 98px;
     width: 249px;
     height: 252px;
     position: absolute;
-    left: 16%;
+    left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +122,7 @@ padding-bottom: 98px;
     width: 249px;
     height: 252px;
     position: absolute;
-    left: 16%;
+    left: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,3 +172,29 @@ padding-bottom: 98px;
   margin-bottom: 66px;
   }
   
+//   .products__hover-overlay{
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(33,150,243,0.9);
+//     padding: 63px 24px;
+//     -webkit-transform: translateY(100%);
+//     transform: translateY(100%);
+//     -webkit-transition-property: -webkit-transform;
+//     transition-property: -webkit-transform;
+//     transition-property: transform;
+//     transition-property: transform, -webkit-transform;
+//     -webkit-transition-duration: 250ms;
+//     transition-duration: 250ms;
+//     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   }
+
+//   .products__hover-overlay-text{
+//     font-size: 18px;
+//     line-height: 1.56;
+//     letter-spacing: 0.03em;
+//     color: #fff;
+//   }
