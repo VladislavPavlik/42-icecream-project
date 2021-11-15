@@ -29,7 +29,7 @@
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-    color: var(--button-text-color);
+        color: var(--button-text-color);
     }
 }
 
@@ -148,15 +148,7 @@
     padding-bottom: 12px;
     color: var(--products-title-color);
     &:hover,
-<<<<<<< Updated upstream
     &:focus{
-      color:var(--button-text-color);
+        color:var(--button-text-color);
     }
 }
-=======
-    &:focus {
-        color:var(--button-text-color);
-    } 
-}
-
->>>>>>> Stashed changes
