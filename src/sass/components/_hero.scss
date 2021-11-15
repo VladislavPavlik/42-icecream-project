@@ -7,8 +7,6 @@
   padding-top: 193px;
   padding-bottom: 160px;
   overflow: hidden;
-<<<<<<< Updated upstream
-=======
   @media screen and (min-width: 768px) {
     padding-top: 102px;
     padding-bottom: 34px;
@@ -23,7 +21,6 @@
   @media screen and (min-width: 768px) {
     position: relative;
   }
->>>>>>> Stashed changes
 }
 
 .hero_elips {
@@ -35,8 +32,6 @@
   top: 17%;
   left: 11%;
   z-index: -1;
-<<<<<<< Updated upstream
-=======
   @media screen and (min-width: 768px) {
     width: 324px;
     height: 322px;
@@ -49,15 +44,12 @@
     left: 475px;
     top: -119px;
   }
->>>>>>> Stashed changes
 }
 
-.hero_img {
+.hero_img-icecream {
   position: absolute;
   top: 9px;
   left: 81px;
-<<<<<<< Updated upstream
-=======
   @media screen and (min-width: 768px) {
     top: 32px;
     left: 71px;
@@ -92,7 +84,6 @@
     top: 263px;
     right: 109px;
   }
->>>>>>> Stashed changes
 }
 
 .hero__title {
@@ -105,8 +96,6 @@
   display: block;
   max-width: 218px;
   color: #ffffff;
-<<<<<<< Updated upstream
-=======
   @media screen and (min-width: 768px) {
     font-size: 22px;
     line-height: 1.13;
@@ -118,7 +107,6 @@
     max-width: 277px;
     height: 137px;
   }
->>>>>>> Stashed changes
 }
 
 .hero__title-accent {
@@ -129,8 +117,6 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--title-section-color);
-<<<<<<< Updated upstream
-=======
   @media screen and (min-width: 768px) {
     font-size: 34px;
     line-height: 0.9;
@@ -151,12 +137,10 @@
     margin-top: 25px;
     margin-bottom: 112px;
   }
->>>>>>> Stashed changes
 }
 
 .hero__btn-dark {
-  margin-top: 19px;
-  padding: 9px 14px;
+  padding: 7px 14px;
   background: var(--title-section-color);
   border-radius: 20px;
   font-family: DM Sans;
@@ -180,9 +164,8 @@
 }
 
 .hero__btn-light {
-  margin-top: 19px;
   margin-left: 8px;
-  padding: 9px 14px;
+  padding: 7px 14px;
   background: #ffffff;
   border-radius: 20px;
   font-family: DM Sans;
@@ -205,8 +188,6 @@
     margin-left: 15px;
   }
 }
-<<<<<<< Updated upstream
-=======
 
 .hero__btn-row {
   @media screen and (max-width: 767px) {
@@ -315,4 +296,3 @@
     margin-top: 14px;
   }
 }
->>>>>>> Stashed changes
