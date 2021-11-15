@@ -9,7 +9,7 @@
   overflow: hidden;
   @media screen and (min-width: 768px) {
     padding-top: 102px;
-    padding-bottom: 173px;
+    padding-bottom: 34px;
   }
 }
 
@@ -51,7 +51,7 @@
     display: none;
   }
   position: absolute;
-  left: 34px;
+  left: 39px;
   top: 143px;
 }
 
@@ -61,7 +61,7 @@
   }
   position: absolute;
   top: 164px;
-  right: 34px;
+  right: 39px;
 }
 
 .hero__title {
@@ -94,8 +94,15 @@
   }
 }
 
-.hero__btn-dark {
+.hero__list-btn {
   margin-top: 19px;
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 64px;
+  }
+}
+
+.hero__btn-dark {
   padding: 7px 14px;
   background: var(--title-section-color);
   border-radius: 20px;
@@ -112,13 +119,9 @@
   &:focus {
     background: #c7133e;
   }
-  @media screen and (min-width: 768px) {
-    margin-top: 20px;
-  }
 }
 
 .hero__btn-light {
-  margin-top: 19px;
   margin-left: 8px;
   padding: 7px 14px;
   background: #ffffff;
@@ -136,8 +139,25 @@
   &:focus {
     background: #ecebeb;
   }
-  @media screen and (min-width: 768px) {
-    margin-top: 20px;
+}
+
+.hero__btn-row {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: block;
+  max-width: 200px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  margin-left: 120px;
+  & p::after {
+    content: url(../images/hero/hero-arrow-tabl-1x.png);
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: 7px;
   }
 }
 
@@ -154,35 +174,13 @@
   color: #ffffff;
 }
 
-.hero__btn-row {
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-  display: block;
-  max-width: 200px;
-  height: auto;
-  border: none;
-  background-color: transparent;
-  position: absolute;
-  left: 154px;
-  top: 190px;
-  text-align: left;
-  & p::after {
-    content: url(../images/hero/hero-arrow-tabl-1x.png);
-    display: block;
-    width: 18px;
-    height: 18px;
-    margin-top: 7px;
-  }
-}
-
 .hero__our-network {
   @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 768px) {
     position: absolute;
-    right: 34px;
+    right: 47px;
     top: -8px;
   }
   & span {
