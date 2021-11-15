@@ -4,6 +4,9 @@
     background-color: transparent;
     position: fixed;
     z-index: 777;
+    @media screen and (min-width:768px){
+    padding-top: 37px;
+    }
 }
 
 .header__container{
@@ -26,7 +29,7 @@
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-    color: var(--button-text-color);
+        color: var(--button-text-color);
     }
 }
 
@@ -41,6 +44,10 @@
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
     z-index: 888;
+    @media screen and (min-width:768px){
+        width: 254px;
+        height: 100vh;
+    }
 }
 
 .menu-container.is-open {
@@ -93,9 +100,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     margin: 0 auto;
-    
+    @media screen and (min-width:768px){
+        width: 186px;
+    }
 }
 
 .header-button {
@@ -106,7 +114,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     margin-left: 30px;
     }
 }
@@ -142,7 +149,6 @@
     color: var(--products-title-color);
     &:hover,
     &:focus{
-        color:var(--button-text-color)
+        color:var(--button-text-color);
     }
 }
-
