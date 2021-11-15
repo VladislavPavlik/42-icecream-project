@@ -39,7 +39,6 @@
   align-content: center;
   width: 280px;
   height: 100%;
-  overflow: hidden;
   padding-top: 113px;
   @media screen and (min-width: 768px){
     display: flex;
@@ -223,6 +222,7 @@
 
 .products__hover-overlay {
   position: absolute;
+  overflow-x: hidden;
   top: 0;
   left: 0;
   width: 100%;
