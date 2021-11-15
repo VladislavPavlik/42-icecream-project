@@ -13,7 +13,12 @@
   text-transform: uppercase;
   color: #ffa5ba;
   margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: calc(30 / 26);
+  }
 }
+
 .products__title {
   font-family: Titan One;
   font-style: normal;
@@ -25,13 +30,35 @@
   text-transform: uppercase;
   color: #d41443;
   margin-bottom: 31px;
+  @media screen and (min-width: 768px){
+    font-size: 48px;
+  line-height: 55px;
+  }
 }
 .products__cards {
   align-content: center;
   width: 280px;
-  height: auto;
+  height: 100%;
   overflow: hidden;
   padding-top: 113px;
+  @media screen and (min-width: 768px){
+    display: flex;
+    width: 100%;
+   
+
+  }
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px){
+    width: 768px;
+    height: 100%;
+  }
+  
 }
 
 .products__cards-item {
@@ -43,7 +70,21 @@
   padding-bottom: 30px;
   position: relative;
   width: 100%;
+  @media screen and (min-width: 768px){
+    width: 220px;
+    height: 100%;
+    width: calc((100% - 30px) / 3);
+    margin-bottom: 0;
+  }
+
 }
+.products__cards-item:not(:last-child){
+  @media screen and (min-width: 768px){
+    margin-right: 20px; 
+  }
+
+}
+
 .second {
   background: #f0d1a5;
 }
@@ -68,13 +109,7 @@
   justify-content: center;
 }
 
-.test {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .products__text {
   display: block;
@@ -101,6 +136,12 @@
   align-items: center;
   justify-content: center;
   transform: translateY(-115%);
+  @media screen and (min-width: 768px){
+    width: 220px;
+    height: 224px;
+    left: 1%;
+  }
+
 }
 .products__cards2-title::before {
   content: url(../images/products/home-ice2.png);
@@ -112,6 +153,11 @@
   align-items: center;
   justify-content: center;
   transform: translateY(-115%);
+  @media screen and (min-width: 768px){
+    width: 220px;
+    height: 224px;
+    left: 1%;
+  }
 }
 .products__cards3-title::before {
   content: url(../images/products/home-ice3.png);
@@ -123,6 +169,11 @@
   align-items: center;
   justify-content: center;
   transform: translateY(-115%);
+  @media screen and (min-width: 768px){
+    width: 220px;
+    height: 224px;
+    left: 1%;
+  }
 }
 
 .products__cards-title::after {
@@ -181,6 +232,7 @@
 }
 
 .products__hover-overlay-text {
+  position: relative;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
