@@ -7,6 +7,23 @@
   padding-top: 193px;
   padding-bottom: 160px;
   overflow: hidden;
+<<<<<<< Updated upstream
+=======
+  @media screen and (min-width: 768px) {
+    padding-top: 102px;
+    padding-bottom: 34px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 171px;
+    padding-bottom: 56px;
+  }
+}
+
+.hero__container {
+  @media screen and (min-width: 768px) {
+    position: relative;
+  }
+>>>>>>> Stashed changes
 }
 
 .hero_elips {
@@ -18,12 +35,64 @@
   top: 17%;
   left: 11%;
   z-index: -1;
+<<<<<<< Updated upstream
+=======
+  @media screen and (min-width: 768px) {
+    width: 324px;
+    height: 322px;
+    left: 307px;
+    top: -71px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 538px;
+    height: 538px;
+    left: 475px;
+    top: -119px;
+  }
+>>>>>>> Stashed changes
 }
 
 .hero_img {
   position: absolute;
   top: 9px;
   left: 81px;
+<<<<<<< Updated upstream
+=======
+  @media screen and (min-width: 768px) {
+    top: 32px;
+    left: 71px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 56px;
+    left: 119px;
+  }
+}
+
+.hero_img-milk {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  position: absolute;
+  left: 39px;
+  top: 143px;
+  @media screen and (min-width: 1280px) {
+    left: 77px;
+    top: 258px;
+  }
+}
+
+.hero_img-stasy {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  position: absolute;
+  top: 164px;
+  right: 39px;
+  @media screen and (min-width: 1280px) {
+    top: 263px;
+    right: 109px;
+  }
+>>>>>>> Stashed changes
 }
 
 .hero__title {
@@ -36,6 +105,20 @@
   display: block;
   max-width: 218px;
   color: #ffffff;
+<<<<<<< Updated upstream
+=======
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 1.13;
+    max-width: 162px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 38px;
+    line-height: 1.16;
+    max-width: 277px;
+    height: 137px;
+  }
+>>>>>>> Stashed changes
 }
 
 .hero__title-accent {
@@ -43,8 +126,32 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 0.96;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--title-section-color);
+<<<<<<< Updated upstream
+=======
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+    line-height: 0.9;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+    line-height: 0.9;
+  }
+}
+
+.hero__list-btn {
+  margin-top: 19px;
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 64px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 25px;
+    margin-bottom: 112px;
+  }
+>>>>>>> Stashed changes
 }
 
 .hero__btn-dark {
@@ -64,6 +171,11 @@
   &:hover,
   &:focus {
     background: #c7133e;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.13;
+    padding: 13px 23px;
   }
 }
 
@@ -86,4 +198,121 @@
   &:focus {
     background: #ecebeb;
   }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.13;
+    padding: 13px 23px;
+    margin-left: 15px;
+  }
 }
+<<<<<<< Updated upstream
+=======
+
+.hero__btn-row {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  display: block;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  margin-left: 120px;
+  & p::after {
+    content: url(../images/hero/hero-arrow-tabl-1x.png);
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-top: 7px;
+    @media screen and (min-width: 1280px) {
+      content: url(../images/hero/hero-arrow-desc-1x.png);
+      margin-top: 20px;
+      width: 26px;
+      height: 26px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: 180px;
+  }
+}
+
+.hero__text {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  max-width: 114px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.5;
+  color: #ffffff;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 200px;
+  }
+}
+
+.hero__our-network {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    right: 44px;
+    top: -6px;
+  }
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    right: 115px;
+    top: -11px;
+  }
+  & span {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+    position: relative;
+  }
+  & span::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    right: -8px;
+    top: -2px;
+    z-index: -1;
+  }
+
+  & p {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #ffffff;
+    text-align: center;
+    @media screen and (min-width: 1280px) {
+      margin-top: 2px;
+    }
+  }
+
+  & li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  & li:not(:first-child) {
+    margin-top: 14px;
+  }
+}
+>>>>>>> Stashed changes
