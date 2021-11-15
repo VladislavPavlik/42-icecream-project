@@ -432,7 +432,7 @@
     line-height: calc(24 / 14);
   }
 
-  color: grey;
+  color: #000000;
 
   &::before {
     content: '';
@@ -482,7 +482,7 @@
 
   text-decoration-line: underline;
 
-  color: palevioletred;
+  color: var(--title-section-color);
 
   margin-left: 5px;
 }
