@@ -71,13 +71,17 @@
     @media screen and (min-width: 768px){
         display: flex;
     }
-    
+}
 
+.wrapper__left{
+    @media screen and (min-width: 768px) {
+        margin-left: 17px;
+    }
 }
 
 .about__img {
     display: block;
-    min-width: 280px;
+    max-width: 280px;
     margin-left: auto;
     margin-right: auto;
     @media screen and (min-width: 768px){
@@ -90,7 +94,6 @@
     padding-right: 30px;
     @media screen and (min-width: 768px){
         padding: 0;
-        margin-left: 17px;
     }
 
     &--black {
@@ -149,6 +152,7 @@
     cursor: pointer;
     @media screen and (min-width: 768px){
         margin-top: 62px;
+        margin-left: 0;
 
         font-size: 16px;
         line-height: 1.31;

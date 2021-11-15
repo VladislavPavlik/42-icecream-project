@@ -3,13 +3,13 @@
         <p class="about__label">tradition and love</p>
         <h2 class="about__title">how it’s made?</h2>
         <div class="wrapper">
-            <picture class="about__img">
-                <source srcset="./images/cow-mob.png 1x, ./images/cow-mob-2x.png 2x" media="(min-width: 320px)">
-                <source srcset="./images/cow-tab.png 1x, ./images/cow-tab-2x.png 2x" media="(min-width: 768px)">
-                <source srcset="./images/cow-desc.png 1x, ./images/cow-desc-2x.png 2x" media="(min-width: 1280px)">
-                <img src="./images/cow-desc.png" alt="Кувшин с молоком и корова" sizes="280px, 340px, 516px">
+            <picture>
+                <source srcset="./images/cow-mob.png 1x, ./images/cow-mob-2x.png 2x" media="(max-width: 320px)">
+                <source srcset="./images/cow-tab.png 1x, ./images/cow-tab-2x.png 2x" media="(max-width: 768px)">
+                <source srcset="./images/cow-desc.png 1x, ./images/cow-desc-2x.png 2x" media="(max-width: 1280px)">
+                <img class="about__img" src="./images/cow-mob.png" alt="Кувшин с молоком и корова">
             </picture>
-            <div>
+            <div class="wrapper__left">
                 <ul class="about__text offds">
                     <li>
                         <p class="about__text--black">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
