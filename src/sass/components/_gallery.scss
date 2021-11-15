@@ -1,8 +1,44 @@
 .gallery {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 150px;
-    display: flex;
-    background: linear-gradient(top, #FFF5F6 50%, #E5E5E5 50%);;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	background-image: linear-gradient(to bottom, #FFF5F6 40%, #E5E5E5 40%);
+}
+
+.thumb {
+	margin-left: 5px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.first-elem {
+	margin-top: 40px;
+}
+
+.last-elem {
+	margin-top: 40px;
+}
+
+.mb {
+	margin-bottom: 5px;
+}
+
+.up-block {
+	transform: translateY(-50px);
+}
+
+.upper-block {
+	transform: translateY(-100px);
+}
+
+.thumb-big {
+	display: block;
+	margin-left: 5px;
+}
+
+.thumb-under {
+	display: inline-flex;
+	margin-top: 5px;
 }
