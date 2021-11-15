@@ -1,10 +1,13 @@
 .gallery {
 	position: relative;
+	background-image: linear-gradient(to bottom, #FFF5F6 0% 50%, #E5E5E5 50% 100%);
+}
+
+.test{
 	display: flex;
 	justify-content: center;
 	width: 100%;
-
-	background-image: linear-gradient(to bottom, #FFF5F6 40%, #E5E5E5 40%);
+    align-items: center;
 }
 
 .thumb {
@@ -12,11 +15,11 @@
 	border-radius: 20px;
 	overflow: hidden;
 }
-
+/*
 .first-elem {
 	margin-top: 40px;
 }
-
+*/
 .last-elem {
 	margin-top: 40px;
 }
@@ -28,11 +31,11 @@
 .up-block {
 	transform: translateY(-50px);
 }
-
+/*
 .upper-block {
 	transform: translateY(-100px);
 }
-
+*/
 .thumb-big {
 	display: block;
 	margin-left: 5px;
@@ -40,5 +43,11 @@
 
 .thumb-under {
 	display: inline-flex;
+	width: 45%;
 	margin-top: 5px;
+}
+
+.gallery__img{
+	width: 100%;
+	height: auto;
 }
