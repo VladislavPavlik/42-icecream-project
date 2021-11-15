@@ -3,32 +3,53 @@
   padding-left: 0;
   list-style: none;
 }
-.slider {
-  padding: 30px 50px;
+
+.customer-reviews {
+  padding-top: 80px;
+  padding-bottom: 86px;
+
   @media (min-width: 768px) {
-    padding: 20px 155px;
+    padding-top: 121px;
+    padding-bottom: 119px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 123px;
+    padding-bottom: 132px;
   }
 }
 
 .slider__item {
-  margin-bottom: 30px;
+  padding: 0px 15px 30px;
+
+  @media (min-width: 768px) {
+    padding: 0px 15px 35px;
+  }
 }
-.slider_image {
+
+.review__image-box {
   width: 85px;
   height: 85px;
-  background-color: green;
   border-radius: 50%;
   margin: auto;
 }
 
-.slider-review {
+.review__text-box {
   /*background-color: #fafafa;*/
   margin-top: 47px;
-  padding: 25px 45px;
+  padding: 25px 50px 38px;
   background-image: repeating-linear-gradient(to bottom, #fafafa, #fafafa 40px, #e1e1e1 1px);
+
+  @media (min-width: 768px) {
+    padding: 30px 36px 28px 40px;
+    margin-top: 19px;
+  }
+  @media (min-width: 1280px) {
+    padding: 32px 52px;
+    margin-top: 15px;
+  }
 }
 
-.slider-review__text {
+.review__text {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -49,7 +70,7 @@
   }
 }
 
-.slider-review__text::before {
+.review__text::before {
   display: block;
   content: '';
   width: 54px;
@@ -59,7 +80,7 @@
   margin: 0px 10px -27px 0;
 }
 
-.slider__title::before {
+.review__title::before {
   display: block;
   content: '';
   width: 32px;
@@ -68,13 +89,32 @@
   margin: auto;
   margin-top: 12px;
   margin-bottom: 18px;
+
+  @media (min-width: 768px) {
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+  @media (min-width: 1280px) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
-.slider__title {
+.review__title {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(26 / 14);
   text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+    line-height: calc(37 / 20);
+  }
 }
 
 /* -------Слайдер ------*/
@@ -90,16 +130,13 @@
   display: flex;
   align-items: flex-start;
 }
-
 /*  Свойства слайдера*/
-
 .slider .slick-arrow {
   position: absolute;
   top: 50%;
   z-index: 10;
   font-size: 0;
 }
-
 .slider .slick-dots {
   display: flex;
   align-items: center;
@@ -116,10 +153,6 @@
   background-color: #d9d9d9;
   border-radius: 50%;
   border: none;
-}
-
-.slider__item {
-  padding: 0px 15px;
 }
 .slider .slick-dots li.slick-active button {
   background: url('../images/customer-reviews/slider_home.png') 0 0 / 100% no-repeat;
