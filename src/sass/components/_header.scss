@@ -3,7 +3,7 @@
     width: 100%;
     padding-top: 6px;
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 777;
     @media screen and (min-width:768px){
     padding-top: 37px;
@@ -110,18 +110,22 @@
     color: var(--products-text-color);
 }
 
-.menu-button-text{
+.menu-button-overlay{
     font-family: DM Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-    color: var(--button-text-color);
+    color: var(--button-text-color);  
     border: none;
     border-radius: 22px;
     background-color: var(--products-title-color);
     transition-duration: 250ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background-color: var(--products-title-color);
+  }
 }
 
 .header-button-tab{
@@ -138,6 +142,10 @@
     background-color: var(--products-title-color);
     transition-duration: 250ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: var(--products-title-color);
+    }
   }
 }
 
