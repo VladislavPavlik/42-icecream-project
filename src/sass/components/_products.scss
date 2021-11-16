@@ -17,6 +17,10 @@
     font-size: 26px;
     line-height: calc(30 / 26);
   }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: calc(34 / 30);
+  }
 }
 
 .products__title {
@@ -34,6 +38,11 @@
     font-size: 48px;
   line-height: 55px;
   }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  }
 }
 .products__cards {
   align-content: center;
@@ -43,8 +52,6 @@
   @media screen and (min-width: 768px){
     display: flex;
     width: 100%;
-   
-
   }
 }
 .test {
@@ -57,7 +64,9 @@
     width: 768px;
     height: 100%;
   }
-  
+  @media screen and (min-width: 1280px){
+    width: 1280px;
+  }
 }
 
 .products__cards-item {
@@ -131,6 +140,12 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-bottom: 30px;
+  @media screen and (min-width: 1280px){
+    font-weight: 700;
+  font-size: 16px;
+  line-height: calc(28 / 16);
+  max-width: 241px;
+  }
 }
 
 .products__cards-title::before {
@@ -148,8 +163,12 @@
     height: 224px;
     left: 1%;
   }
-
+  @media screen and (min-width: 1280px){
+    width: 337px;
+  
+  }
 }
+
 .products__cards2-title::before {
   content: url(../images/products/home-ice2.png);
   width: 249px;
@@ -165,7 +184,11 @@
     height: 224px;
     left: 1%;
   }
+  @media screen and (min-width: 1280px){
+    width: 337px;
+  }
 }
+
 .products__cards3-title::before {
   content: url(../images/products/home-ice3.png);
   width: 249px;
@@ -180,6 +203,9 @@
     width: 220px;
     height: 224px;
     left: 1%;
+  }
+  @media screen and (min-width: 1280px){
+    width: 337px;
   }
 }
 
@@ -226,6 +252,11 @@
   position: relative;
   color: #ffffff;
   margin-bottom: 66px;
+  @media screen and (min-width: 1280px){
+    font-size: 30px;
+    line-height: calc(34 / 30);
+  }
+
 }
 
 .products__hover-overlay {
