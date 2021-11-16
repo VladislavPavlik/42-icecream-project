@@ -1,11 +1,48 @@
 <section class="hero">
   <div class="hero__container container">
     <div class="hero_elips">
-      <img class="hero_img" srcset="./images/hero-icecream-mob-1x.png 1x, ./images/hero-icecream-mob-2x.png 2x "
-      src="./images/hero-icecream-mob-1x.png" alt="icecream">
+      <picture class="hero_img-icecream">
+        <source srcset="./images/hero/hero-icecream-desc-1x.png 1x, ./images/hero/hero-icecream-desc-2x.png 2x"
+          media="(min-width: 1280px)">
+        <source srcset="./images/hero/hero-icecream-tabl-1x.png 1x, ./images/hero/hero-icecream-tabl-2x.png 2x"
+          media="(min-width: 768px)">
+        <source srcset="./images/hero/hero-icecream-mob-1x.png 1x, ./images/hero/hero-icecream-mob-2x.png 2x"
+          media="(max-width: 767px)">
+        <img src="./images/hero/hero-icecream-mob-1x.png" alt="icecream">
+      </picture>
     </div>
     <h1 class="hero__title">ice cream made with <span class="hero__title-accent">passion</span></h1>
-    <a class="hero__btn-dark offds" href="#products">Products</a>
-    <a class="hero__btn-light offds" href="#about">How it’s made?</a>
+    <ul class="hero__list-btn">
+      <a class="hero__btn-dark offds" href="#products">Products</a>
+      <a class="hero__btn-light offds" href="#about">How it’s made?</a>
+    </ul>
+    <picture class="hero_img-milk">
+      <source srcset="./images/hero/hero-milk-desc-1x.png 1x, ./images/hero/hero-milk-desc-2x.png 2x"
+        media="(min-width: 1280px)">
+      <source srcset="./images/hero/hero-milk-tabl-1x.png 1x, ./images/hero/hero-milk-tabl-2x.png 2x"
+        media="(min-width: 768px)">
+      <img src="./images/hero/hero-milk-tabl-1x.png" alt="milk">
+    </picture>
+    <button class="hero__btn-row" type="button">
+      <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et</p>
+    </button>
+    <ul class="hero__our-network offds">
+      <li class="">
+        <span>16</span>
+        <p>cafes</p>
+      </li>
+      <li class="">
+        <span>23</span>
+        <p>food trucks</p>
+      </li>
+    </ul>
+    <picture class="hero_img-stasy">
+      <source srcset="./images/hero/hero-stasy-desc-1x.png 1x, ./images/hero/hero-stasy-desc-2x.png 2x"
+        media="(min-width: 1280px)">
+      <source srcset="./images/hero/hero-stasy-tabl-1x.png 1x, ./images/hero/hero-stasy-tabl-2x.png 2x"
+        media="(min-width: 768px)">
+      <img src="./images/hero/hero-stasy-tabl-1x.png" alt="stasy">
+    </picture>
   </div>
 </section>
