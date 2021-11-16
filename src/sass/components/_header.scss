@@ -97,7 +97,6 @@
   }
 }
 
-
 .menu-container.is-open {
     transform: translateX(0);
 }
@@ -109,25 +108,6 @@
     top: 23px;
     right: 28px;
     color: var(--products-text-color);
-}
-
-.menu-button-overlay{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    color: var(--button-text-color);  
-    border: none;
-    cursor: pointer;
-    border-radius: 22px;
-    background: var(--products-title-color);
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-    background: #ECEBEB;;
-  }
 }
 
 .header-button-tab{
@@ -152,18 +132,6 @@
   }
 }
 
-.menu-button{
-    width: 209px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    @media screen and (min-width:768px){
-        width: 186px;
-    }
-}
-
 .header-button {
   display: none;
   @media screen and (min-width:768px){
@@ -180,12 +148,53 @@
   }  
 }
 
+.menu-button-overlay{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--button-text-color);  
+  border: none;
+  cursor: pointer;
+  border-radius: 22px;
+  background: var(--products-title-color);
+  transition-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+  background: #ECEBEB;
+  }
+}
+
+.menu-button{
+    width: 209px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    @media screen and (min-width:768px){
+        width: 186px;
+    }
+}
+
 .menu-button-svg{
     margin-left: 15.77px;
 }
 
 .menu-list{
     margin-top: 19px;
+}
+
+.menu__img{
+  position: absolute;
+  top: 130px;
+  left: 35px;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu-item{
@@ -198,15 +207,18 @@
 
 .menu-link {
     width: 100%;
+    z-index: 777;
     font-family: DM Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    display: block;
-    padding-left:21px;
+    display: flex;
+    justify-content: center;
+    // padding-left:21px;
     padding-top: 11px;
     padding-bottom: 12px;
+    
     color: var(--products-title-color);
     &:hover,
     &:focus{
