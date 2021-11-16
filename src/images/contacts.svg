@@ -6,5 +6,6 @@
 <symbol id="Vector-1" viewBox="0 0 19 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l11.552 12.8-11.552 12.8"></path>
 </symbol>
+<symbol id="close-black" viewBox="0 0 32 32"><path d="m26.667 7.303-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"/></symbol>
 </defs>
 </svg>
