@@ -1,45 +1,52 @@
 .gallery {
-	position: relative;
-	background-image: linear-gradient(to bottom, #FFF5F6 0% 50%, #E5E5E5 50% 100%);
+  position: relative;
+  background-image: linear-gradient(to bottom, #fff5f6 0% 40%, #ffffff 40% 100%);
 }
 
-.test{
-	display: flex;
-	justify-content: center;
-	width: 100%;
-    align-items: center;
+.test_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
 .thumb {
-	margin-left: 5px;
-	border-radius: 20px;
-	overflow: hidden;
+  margin-left: 5px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .last-elem {
-	margin-top: 40px;
+  margin-top: 10px;
 }
 
 .mb {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .up-block {
-	transform: translateY(-50px);
+  margin-top: 70px;
+  transform: translateY(-50px);
+}
+.up-block2 {
+  margin-top: 70px;
+}
+.up-block3 {
+  margin-top: 70px;
 }
 
 .thumb-big {
-	display: block;
-	margin-left: 5px;
+  display: block;
+  margin-left: 5px;
 }
 
 .thumb-under {
-	display: inline-flex;
-	width: 45%;
-	margin-top: 5px;
+  display: inline-flex;
+  width: 45%;
+  margin-top: 5px;
 }
 
-.gallery__img{
-	width: 100%;
-	height: auto;
+.gallery__img {
+  width: 100%;
+  height: auto;
 }
