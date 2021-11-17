@@ -8,6 +8,7 @@
   cursor: pointer;
 }
 
+/*backdrop and modal*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -62,6 +63,7 @@
   }
 }
 
+/*Modal form*/
 .modal-form {
   padding: 40px;
 }
@@ -89,6 +91,7 @@
 
 .modal-form__label {
   margin-bottom: 4px;
+  margin-left: 17px;
 
   font-weight: 400;
   font-size: 12px;
@@ -115,10 +118,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: blak;
+  color: black;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
+  border-radius: 20px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -158,7 +161,7 @@
   color: black;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
+  border-radius: 20px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -196,6 +199,15 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: #d41444bb;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff3b;
+    box-shadow: 0px 8px 30px #d41444bb;
+  }
 }
 
 .modal-form__close-icon {
@@ -236,10 +248,10 @@
   &::before {
     content: '';
     display: inline-flex;
-    width: 16px;
-    height: 15px;
-    border: 2px solid black;
-    border-radius: 2px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid rgb(153, 4, 74);
+    border-radius: 50%;
     margin-right: 7px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -259,7 +271,8 @@
 
   &:checked + .modal-form__label-checkbox::before,
   &:checked:focus + .modal-form__label-checkbox::before {
-    background-image: url();
+    background-image: url('../images/checkbox.svg');
+
     background-size: contain;
     background-origin: border-box;
     border: none;
@@ -296,7 +309,7 @@
 
   background-color: var(--title-section-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 20px;
   border: none;
 
   cursor: pointer;
@@ -307,11 +320,14 @@
   letter-spacing: 0.06em;
 
   color: white;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--title-section-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: var(--pretitle-section-color);
+    background-color: white;
+    color: var(--title-section-color);
+    box-shadow: inset 0px 0px 20px 5px var(--title-section-color);
   }
 }
