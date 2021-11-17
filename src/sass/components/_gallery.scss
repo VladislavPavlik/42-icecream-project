@@ -14,6 +14,12 @@
   margin-left: 5px;
   border-radius: 20px;
   overflow: hidden;
+  transition: transform 350ms linear;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.07) rotate(-2deg);
+  }
 }
 
 .last-elem {
