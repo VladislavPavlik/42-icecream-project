@@ -36,6 +36,7 @@
   display: block;
   border-radius: 50%;
 }
+
 .review__board {
   margin-top: 47px;
   background-color: #fafafa;
@@ -146,10 +147,7 @@
 }
 /*  Свойства слайдера*/
 .slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  font-size: 0;
+  display: none;
 }
 .slider .slick-dots {
   display: flex;
