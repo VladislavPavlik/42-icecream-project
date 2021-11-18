@@ -12,19 +12,17 @@
 
 .thumb {
   margin-left: 5px;
-  border-radius: 20px;
   overflow: hidden;
   transition: transform 350ms linear;
-
   &:hover,
   &:focus {
     transform: scale(1.07) rotate(-2deg);
   }
 }
 
-.last-elem {
-  margin-top: 10px;
-}
+// .last-elem {
+//   margin-top: 10px;
+// }
 
 .mb {
   margin-bottom: 5px;
@@ -37,9 +35,9 @@
 .up-block2 {
   margin-top: 70px;
 }
-.up-block3 {
-  margin-top: 70px;
-}
+// .up-block3 {
+//   margin-top: 70px;
+// }
 
 .thumb-big {
   display: block;
@@ -48,11 +46,12 @@
 
 .thumb-under {
   display: inline-flex;
-  width: 45%;
+  width: 50%;
   margin-top: 5px;
 }
 
 .gallery__img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
