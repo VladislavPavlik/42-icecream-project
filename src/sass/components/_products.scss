@@ -280,7 +280,7 @@
   height: 100%;
   background: rgba(236, 55, 116, 0.7);
   border-radius: 24px;
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(100%);
 }
 
@@ -297,7 +297,6 @@
   @media screen and (min-width: 1280px) {
     font-size: 26px;
   }
-
 }
 
 .products__cards-item:before {
