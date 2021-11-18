@@ -48,6 +48,8 @@
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  transition-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus{
     color: var(--title-section-color);
@@ -214,10 +216,10 @@
     line-height: 18px;
     display: flex;
     justify-content: center;
-    // padding-left:21px;
     padding-top: 11px;
     padding-bottom: 12px;
-    
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--products-title-color);
     &:hover,
     &:focus{
