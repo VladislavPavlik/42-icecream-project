@@ -286,11 +286,18 @@
 
 .products__hover-overlay-text {
   position: relative;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #fff;
   padding: 30px 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 26px;
+  }
+
 }
 
 .products__cards-item:before {
