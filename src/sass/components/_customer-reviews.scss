@@ -27,17 +27,38 @@
 }
 
 .review__image-box {
+  margin: auto;
   width: 85px;
   height: 85px;
+}
+
+.review__image {
+  display: block;
   border-radius: 50%;
-  margin: auto;
+}
+
+.review__board {
+  margin-top: 47px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.review__board::before {
+  display: block;
+  content: '';
+  width: 54px;
+  height: 40px;
+  background-image: url('../images/customer-reviews/quotes.png');
+
+  position: absolute;
+  top: 14px;
+  left: 38px;
 }
 
 .review__text-box {
-  /*background-color: #fafafa;*/
-  margin-top: 47px;
+  position: relative;
+
   padding: 25px 50px 38px;
-  background-image: repeating-linear-gradient(to bottom, #fafafa, #fafafa 40px, #e1e1e1 1px);
 
   @media (min-width: 768px) {
     padding: 30px 36px 28px 40px;
@@ -57,10 +78,14 @@
   text-align: center;
   color: var(--customer--text-color);
 
+  background-image: repeating-linear-gradient(to top, #e1e1e1 0px 1px, transparent 1px 31px);
+  padding: 0 11px;
+
   @media (min-width: 768px) {
     font-size: 14px;
     line-height: calc(30 / 14);
     letter-spacing: 0.04em;
+    padding: 0 32px;
   }
 
   @media (min-width: 1280px) {
@@ -68,16 +93,6 @@
     line-height: calc(30 / 16);
     letter-spacing: 0.04em;
   }
-}
-
-.review__text::before {
-  display: block;
-  content: '';
-  width: 54px;
-  height: 40px;
-  background-image: url('../images/customer-reviews/quotes.png');
-
-  margin: 0px 10px -27px 0;
 }
 
 .review__title::before {
@@ -132,10 +147,7 @@
 }
 /*  Свойства слайдера*/
 .slider .slick-arrow {
-  position: absolute;
-  top: 50%;
-  z-index: 10;
-  font-size: 0;
+  display: none;
 }
 .slider .slick-dots {
   display: flex;
