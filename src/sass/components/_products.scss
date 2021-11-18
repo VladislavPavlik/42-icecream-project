@@ -65,15 +65,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    height: 100%;
-  }
-  @media screen and (min-width: 1280px) {
-    padding-left: 117px;
-    padding-right: 116px;
-    width: 1280px;
-  }
+ 
 }
 
 .products__cards-item {
