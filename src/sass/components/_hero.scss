@@ -133,6 +133,7 @@
 }
 
 .hero__list-btn {
+  display: flex;
   margin-top: 19px;
   @media screen and (min-width: 768px) {
     margin-top: 20px;
@@ -144,7 +145,7 @@
   }
 }
 
-.hero__btn-dark {
+.hero__dark-link {
   padding: 7px 14px;
   background: var(--title-section-color);
   border-radius: 20px;
@@ -168,8 +169,11 @@
   }
 }
 
-.hero__btn-light {
+.hero__light-item {
   margin-left: 8px;
+}
+
+.hero__light-link {
   padding: 7px 14px;
   background: #ffffff;
   border-radius: 20px;
